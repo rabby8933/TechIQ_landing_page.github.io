@@ -1,0 +1,897 @@
+/************************ 
+  Google fonts Popins
+*************************/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/************************ 
+  Webpage Global CSS 
+*************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #d9d9d9;
+  background: #000;
+}
+a {
+  text-decoration: none;
+}
+
+/************************ 
+  Header section CSS
+*************************/
+header {
+  position: sticky;
+  top: 0;
+  background: rgb(23, 23, 23);
+  padding: 10px 0;
+  z-index: 100;
+}
+.navbar-brand p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+.navbar-brand p span {
+  color: #00c39a;
+}
+.nav-item {
+  padding-right: 40px !important;
+}
+.nav-link {
+  color: #d9d9d9 !important;
+  padding: 3px 8px !important;
+  border-bottom: 1px solid rgb(23, 23, 23);
+  transition: all 0.3s ease-in-out;
+}
+.nav-link:hover {
+  color: #00c39a !important;
+  border-bottom: 1px solid #00c39a;
+}
+.translate select {
+  outline: 0;
+  background: transparent;
+  color: #d9d9d9;
+  border-color: #00c39a;
+  padding: 6px 8px;
+  border-radius: 7px;
+}
+.translate select option {
+  background: rgb(38, 38, 38);
+}
+.translate select option:hover {
+  background: #1a8d74 !important;
+}
+.translate .fa-solid {
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+/********************** 
+  banner section CSS
+***********************/
+.banner {
+  position: relative;
+  background: url(../assets/Rectangle-12.png) no-repeat center rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  padding: 225px 0;
+  text-align: center;
+  color: #fff;
+}
+.banner h1 {
+  font-size: 52px;
+  font-weight: 600;
+  padding: 0 20px;
+}
+.banner .contact {
+  font-weight: 500;
+  background: #00c39a;
+  padding: 10px 24px;
+  border-radius: 8px;
+  margin: 0px 15px;
+  transition: all 0.3s ease-in-out;
+}
+.banner .contact:hover {
+  background: #00f0bc;
+}
+.banner .st-project {
+  font-weight: 500;
+  background: transparent;
+  color: #fff;
+  padding: 10px 22px;
+  margin: 0px 15px;
+  border: 1px solid #00c39a;
+  border-radius: 8px;
+  outline: 0;
+  transition: all 0.3s ease-in-out;
+}
+.banner .st-project:hover {
+  background: #00c39a;
+  color: #000;
+}
+.banner .img-fluid {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0 50px;
+}
+
+/********************** 
+  features section CSS
+***********************/
+.features {
+  background-color: #000;
+  padding: 80px 0;
+  position: relative;
+}
+.features .items {
+  padding: 12px 60px;
+}
+.features .item {
+  cursor: pointer;
+  background: #252b317d;
+  margin: 10px 10px;
+  padding: 45px 50px 35px 50px;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.features .item:hover {
+  transform: scale(1.02);
+}
+.features h4 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #00c39a;
+  margin: 25px 0 10px;
+}
+.features h5 {
+  display: inline-block;
+  font-size: 36px;
+  padding-left: 10px;
+  font-weight: 200;
+}
+.features h6 {
+  display: contents;
+  font-size: 20px;
+  font-weight: 300;
+}
+.features p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.features a {
+  color: #00c39a;
+  border-bottom: 1px solid transparent;
+}
+.features a:hover {
+  border-bottom: 1px solid #00c39a;
+}
+.features button {
+  display: inherit;
+  width: 120px;
+  height: 34px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #00c39a;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+.features button:hover {
+  background: #00c39a;
+  color: #000;
+}
+.features .left {
+  position: absolute;
+  bottom: 38.5%;
+  left: -7%;
+  transform: rotate(-90deg);
+}
+.features .left .separator {
+  display: inline-block;
+  width: 80px;
+  height: 3px;
+  background: #00c39a;
+  margin-bottom: 10px;
+}
+.features ul {
+  padding: 0;
+  text-align: right;
+  margin-top: 30px;
+}
+.features li {
+  display: inline;
+  padding-right: 10px;
+}
+
+/********************** 
+  Used-technologies section CSS
+***********************/
+.used-technologies {
+  position: relative;
+  padding: 200px 0 100px;
+  background: #000;
+}
+.used-technologies .item {
+  height: 555px;
+  background: #252b317d;
+  margin: 0 10px;
+  padding: 45px 40px;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.used-technologies .item:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 4px 17px 2px #46464685;
+}
+.used-technologies .item ul {
+  padding: 0;
+  margin-top: 30px;
+}
+.used-technologies h4 {
+  font-size: 25px;
+  font-weight: 300;
+}
+.used-technologies span {
+  font-weight: 800;
+  padding-left: 4px;
+  color: #00c39a;
+}
+.used-technologies .separator {
+  width: 100%;
+  height: 1px;
+  background: #00c39a;
+  margin-top: 20px;
+}
+.used-technologies img {
+  width: 60%;
+  padding: 15px 0px;
+}
+.used-technologies .left {
+  position: absolute;
+  top: 8%;
+  right: 0%;
+}
+.used-technologies h5 {
+  display: inline-block;
+  font-size: 36px;
+  padding-left: 10px;
+  font-weight: 200;
+}
+.used-technologies .left .separator {
+  display: inline-block;
+  width: 80px;
+  height: 3px;
+  background: #00c39a;
+  margin-bottom: 10px;
+}
+.used-technologies .bottom {
+  text-align: right;
+  margin-top: 60px;
+}
+.used-technologies li {
+  display: inline;
+  padding-right: 10px;
+}
+.used-technologies h6 {
+  display: contents;
+  font-size: 20px;
+  font-weight: 300;
+}
+.used-technologies button {
+  display: inherit;
+  width: 120px;
+  height: 34px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #00c39a;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+.used-technologies button:hover {
+  background: #00c39a;
+  color: #000;
+}
+.used-technologies .width {
+  width: 75%;
+}
+
+/********************** 
+  Slider section CSS
+***********************/
+.slider {
+  position: relative;
+  padding: 120px 0;
+}
+.slider .left {
+  position: absolute;
+  top: 0;
+  left: 0%;
+}
+.slider h5 {
+  display: inline-block;
+  font-size: 36px;
+  padding-left: 10px;
+  font-weight: 200;
+}
+.slider .left .separator {
+  display: inline-block;
+  width: 80px;
+  height: 3px;
+  background: #00c39a;
+  margin-bottom: 10px;
+}
+.owl-carousel .owl-item img {
+  display: block;
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+.owl-carousel .owl-item .left-img {
+  margin-right: 8px;
+}
+.owl-carousel .owl-item .right-img {
+  margin-left: 8px;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #00c39a;
+  border: 1px solid #00c39a;
+  width: 45px;
+  height: 15px;
+}
+.owl-theme .owl-dots,
+.owl-theme .owl-nav {
+  margin-top: -10px;
+}
+.owl-theme .owl-dots .owl-dot span {
+  background: transparent;
+  border: 1px solid #fff;
+  width: 15px;
+  height: 15px;
+  transition: all 0.6s ease-in-out;
+}
+.owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  top: 42%;
+  left: -2%;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+.owl-carousel .owl-nav button.owl-prev:hover .fa-solid {
+  background: #00c39a !important;
+}
+.owl-carousel .owl-nav button.owl-prev .fa-solid {
+  font-size: 30px;
+  color: #000;
+  background: #909090a6;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+  animation: prev 2s ease infinite;
+  transition: all 0.3s;
+}
+@keyframes prev {
+  0% {transform: translateX(0);scale: (1);}
+  50% {transform: translateX(-10px);scale: (1.02);}
+  100% {transform: translateX(0);scale: (1);}
+}
+.owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  top: 42%;
+  right: -2%;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+.owl-carousel .owl-nav button.owl-next:hover .fa-solid {
+  background: #00c39a !important;
+}
+.owl-carousel .owl-nav button.owl-next .fa-solid {
+  font-size: 30px;
+  color: #000;
+  background: #909090a6;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+  animation: next 2s ease infinite;
+  transition: all 0.3s;
+}
+@keyframes next {
+  0% {transform: translateX(0); scale: (1);}
+  50% {transform: translateX(10px); scale: (1.02);}
+  100% {transform: translateX(0); scale: (1);}
+}
+
+/********************** 
+  Contact section CSS
+***********************/
+.contact {
+  position: relative;
+  padding: 110px 0 140px;
+}
+.contact .left {
+  position: absolute;
+  top: 0;
+  left: 0%;
+}
+.contact h5 {
+  display: inline-block;
+  font-size: 36px;
+  padding-left: 10px;
+  font-weight: 200;
+}
+.contact .left .separator {
+  display: inline-block;
+  width: 80px;
+  height: 3px;
+  background: #00c39a;
+  margin-bottom: 10px;
+}
+.contact form {
+  padding: 0 25px;
+}
+.contact .form-control {
+  background: #1c2024;
+  color: #d4d4d4;
+  margin: 15px auto;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  transition: all 0.4s ease-in-out;
+}
+.contact .form-control:focus {
+  border: 1px solid #00c39a;
+}
+.contact .form-floating label {
+  color: #9d9898;
+}
+.contact .btn-sent {
+  float: right;
+  font-weight: 500;
+  background: #00c39a;
+  margin-top: 30px;
+  padding: 10px 25px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.contact .btn-sent:hover {
+  background: #00f0bc;
+}
+.contact ul {
+  padding: 0%;
+  margin: 0%;
+}
+.contact li {
+  list-style: none;
+  display: inline-block;
+}
+.contact li p {
+  font-size: 18px;
+  margin: 0;
+}
+.contact li p span {
+  color: #00e8b7;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.contact .ct-info {
+  position: relative;
+  width: 364px;
+  height: 496px;
+  display: block;
+  margin: 0 auto;
+}
+.contact .right-bg {
+  display: block;
+  margin: 0 auto;
+}
+.contact .ct-info .social-icons {
+  position: absolute;
+  top: 10%;
+  right: 13%;
+}
+.contact .ct-info .info {
+  position: absolute;
+  bottom: 30%;
+  left: 16%;
+}
+.contact .ct-info .fa-brands {
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  color: #5b5b5b;
+  background: #1dd0aa;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 50px;
+  margin: 0 3px;
+  transition: all 0.3s ease-in-out;
+}
+.contact .ct-info .fa-brands:hover {
+  background: #27eac0;
+}
+.contact .ct-info h3 {
+  font-size: 36px;
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+.contact .ct-info h3 span {
+  font-size: 36px;
+  color: #00c39a;
+  font-weight: 700;
+  padding-left: 5px;
+}
+.contact .ct-info .info .fa-sharp {
+  font-size: 14px;
+  background: #01cd86;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  line-height: 26px;
+  text-align: center;
+  border-radius: 48px;
+}
+.contact .ct-info .info li {
+  padding: 5px 0px;
+}
+.contact .ct-info .info li a {
+  color: #d2cfcf;
+  font-size: 18px;
+}
+
+/********************** 
+  Workstyle section CSS
+***********************/
+.workstyle {
+  position: relative;
+  padding: 70px 0 120px;
+}
+.workstyle .left {
+  position: absolute;
+  bottom: 35%;
+  right: -6%;
+  transform: rotate(90deg);
+}
+.workstyle h5 {
+  display: inline-block;
+  font-size: 36px;
+  padding-left: 10px;
+  font-weight: 200;
+}
+.workstyle .left .separator {
+  display: inline-block;
+  width: 80px;
+  height: 3px;
+  background: #00c39a;
+  margin-bottom: 10px;
+}
+.workstyle .collapse-item {
+  background: #15181c;
+  margin: 15px 100px;
+  padding: 45px 0;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.workstyle .collapse-item .collapse .separator {
+  width: 68%;
+  height: 1px;
+  background: #666666;
+  display: block;
+  margin: 5px 0 10px 23%;
+}
+.workstyle .collapse-item .collapse .fa-caret-down {
+  color: #00c39a;
+  font-size: 40px;
+  align-items: center;
+  float: right;
+  margin-top: 17px;
+  margin-right: -20px;
+  transform: rotate(-90deg);
+}
+.workstyle .collapse-item .collapse .card {
+  background: #15181c !important;
+  font-size: 18px;
+  padding: 16px 16px 0;
+}
+.workstyle .collapse-item .head {
+  display: flex;
+  justify-content: space-evenly;
+}
+.workstyle .collapse-item .head h3 {
+  font-size: 30px;
+  color: #aeaeae;
+  margin: 0;
+  line-height: 60px;
+}
+.workstyle .collapse-item .head .fa-caret-down {
+  font-size: 40px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.workstyle .collapse-item:hover .fa-caret-down {
+  color: #00c39a !important;
+}
+.workstyle .collapse-item:hover .fa-user-group,
+.workstyle .collapse-item:hover .fa-tv,
+.workstyle .collapse-item:hover .fa-file-shield {
+  color: #00c39a !important;
+}
+.workstyle .collapse-item .head .fa-user-group {
+  font-size: 46px;
+  line-height: 66px;
+  transition: all 0.3s ease-in-out;
+}
+.workstyle .collapse-item .head .fa-tv{
+  font-size: 46px;
+  line-height: 66px;
+  transition: all 0.3s ease-in-out;
+}
+.workstyle .collapse-item .head .fa-file-shield {
+  font-size: 46px;
+  line-height: 66px;
+  transition: all 0.3s ease-in-out;
+}
+.workstyle button {
+  display: inherit;
+  width: 160px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 33px;
+  margin: 30px auto;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #00c39a;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+.workstyle button:hover {
+  background: #00c39a;
+  color: #000;
+}
+.workstyle button i {
+  padding-left: 8px;
+}
+
+/***************************
+  Main footer section CSS
+*****************************/
+footer {
+  position: relative;
+  background: #121418;
+  padding: 70px 0 20px;
+}
+footer h3 {
+  font-size: 30px;
+  font-weight: 300;
+}
+footer h3 span {
+  font-size: 36px;
+  color: #00c39a;
+  font-weight: 700;
+  padding-left: 5px;
+}
+footer .separator1 {
+  width: 85px;
+  height: 2px;
+  background: #00c39a;
+  margin: 15px 0 30px;
+}
+footer .separator2 {
+  width: 60px;
+  height: 2px;
+  background: #00c39a;
+  margin: 15px 0 30px;
+}
+footer .row ul {
+  padding: 0;
+}
+footer .row li {
+  list-style: none;
+  padding: 9px 0px;
+}
+footer .row li a {
+  color: #969696;
+  font-size: 18px;
+  transition: all 0.2s ease-in-out;
+}
+footer .row li a:hover {
+  color: #00c39a;
+  padding-left: 3px;
+  letter-spacing: 0.5px;
+}
+footer .info {
+  padding-top: 100px;
+}
+footer .info h3 {
+  font-size: 36px;
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+footer .info .fa-sharp {
+  font-size: 14px;
+  background: #01cd86;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  line-height: 26px;
+  text-align: center;
+  border-radius: 48px;
+}
+footer .info ul {
+  padding: 0;
+}
+footer .info li {
+  list-style: none;
+  padding: 10px 0px;
+}
+footer .info li a {
+  color: #d2cfcf;
+  font-size: 18px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #00c39a;
+  padding-top: 15px;
+  margin-top: 30px;
+}
+.footer-bottom p {
+  margin: 0;
+}
+.footer-bottom .logo p {
+  padding-right: 90px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+.footer-bottom .logo p span {
+  color: #00c39a;
+}
+.footer-bottom .social-icons ul {
+  margin: 0;
+}
+.footer-bottom .social-icons li {
+  list-style: none;
+  display: inline-block;
+}
+.footer-bottom .social-icons li a:hover {
+  padding: 0%;
+}
+.footer-bottom .fa-brands {
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  color: #5b5b5b;
+  background: #1dd0aa;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 50px;
+  margin-left: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.footer-bottom .fa-brands:hover {
+  background: #27eac0;
+}
+
+/* Go Top Button */
+.gotop{
+  position: fixed;
+  top: 88%;
+  right: 4.5%;
+}
+.gotop i{
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+    color: #000000;
+    background: #1dd0aa;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50px;
+    animation: upbtn 2s ease infinite;
+    transition: all 0.3s;
+}
+@keyframes upbtn{
+  0%{transform: translateY(0px);}
+  50%{transform: translateY(-10px);}
+  100%{transform: translateY(0px);}
+}
+
+/***********************
+  Mobile Responsive
+************************/
+@media (min-width: 320px) and (max-width: 576px) {
+  .navbar-brand{margin-left: 15px;}
+  .navbar-toggler{background: #00c39a;}
+  .nav-item {padding-right: 0px !important;}
+  .nav-link{text-align: center;margin: 10px 0;}
+  .translate{text-align: center;}
+  .navbar-toggler-icon{width: 1.2em;height: 1.4em;}
+
+  .banner {padding: 130px 0 150px;}
+  .banner h1 {font-size: 36px;}
+  .banner .img-fluid{width: 70%;}
+  .banner .contact {margin: 0 0 20px 0;}
+  .banner .st-project {margin: 0;}
+
+  .features .items {padding: 0;}
+  .features .item {margin: 20px;padding: 40px 50px 30px 50px;}
+  .features .left {position: absolute;top: 1%;left: 0%;bottom: auto;transform: rotate(0);}
+  .features h4 {font-size: 24px;}
+  .features p {font-size: 16px;}
+  .features h5 {font-size: 32px;}
+  .features ul {text-align: center;}
+  .features button{margin-top: 15px;}
+
+  .used-technologies .left {top: 1%;}
+  .used-technologies h5 {font-size: 32px;}
+  .used-technologies {padding: 95px 0 65px;}
+  .used-technologies .item {height: 515px;margin: 20px;padding: 40px 35px;}
+  .used-technologies li {display: inline-block;}
+  .used-technologies img {width: 60%;}
+  .used-technologies .width {width: 58%;}
+  .used-technologies .bottom {text-align: center;margin-top: 40px;}
+  .used-technologies button{margin-top: 15px;}
+
+  .slider h5 {font-size: 32px;}
+  .slider .left {top: 1%;}
+  .slider {padding: 100px 0 60px;}
+
+  .owl-carousel .owl-item .left-img {margin-right: 0;}
+  .owl-carousel .owl-item img {width: 100%;}
+  .owl-carousel .owl-nav button.owl-prev {top: 45%;}
+  .owl-carousel .owl-nav button.owl-next {top: 45%;}
+  .owl-carousel .owl-item .right-img {margin-left: 0;}
+
+  .workstyle {padding: 90px 0 80px;}
+  .workstyle .collapse-item {margin: 15px 10px;padding: 45px 25px;}
+  .workstyle .collapse-item .head h3 {font-size: 20px;line-height: 30px;}
+  .workstyle .collapse-item .head .fa-user-group,
+  .workstyle .collapse-item .head .fa-tv,
+  .workstyle .collapse-item .head .fa-file-shield {font-size: 36px;line-height: 56px; margin-right: 15px;}
+  .workstyle .collapse-item .head .fa-caret-down {font-size: 30px;}
+  .workstyle .left {top: 3%;right: 0%;bottom: auto;transform: none;}
+  .workstyle h5 {font-size: 32px;}
+  .workstyle .collapse-item .collapse .card {font-size: 16px;}
+  .workstyle .collapse-item .collapse .fa-caret-down {font-size: 30px;}
+  .workstyle .collapse-item .collapse .separator {width: 84%;margin: 5px 0 10px 17%;}
+
+  .contact h5 {font-size: 26px;}
+  .contact {padding: 60px 0;}
+  .contact .btn-sent {float: none;display: block;margin: 30px auto;}
+  .contact .user {text-align: center;margin-top: 20px;}
+  .contact form {padding: 0 25px 25px;}
+  .contact .ct-info .info {bottom: 30%;left: 14%;}
+  .contact .ct-info .social-icons {right: 13%;}
+  .contact .ct-info .info li a {font-size: 16px;}
+
+  footer {text-align: center;padding: 60px 0 20px;}
+  footer .separator1 {display: block;margin: 15px auto 20px;}
+  footer .separator2 {display: block;margin: 15px auto 20px;}
+  footer .row li {padding: 4px 0px;}
+  footer .row li a {font-size: 17px;}
+  footer .info {padding-top: 30px;}
+  footer .info li a {font-size: 16px;}
+  footer .info li {padding: 6px 0px;}
+  .footer-bottom .logo {padding-right: 50px;}
+  .footer-bottom {margin-top: 15px;}
+
+  .gotop {top: 88%;right: 7%;z-index: 100;}
+
+}
